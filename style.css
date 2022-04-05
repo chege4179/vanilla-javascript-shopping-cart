@@ -1,0 +1,46 @@
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    padding:40px
+
+}
+nav{
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+nav h3{
+    color: white;
+    padding-top: 20px;
+
+
+}
+nav button{
+    background-color: blue;
+    color: white;
+
+}
+.cart{
+    display: flex;
+    flex-direction: column;
+}
+.subtotal{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
